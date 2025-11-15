@@ -1,0 +1,118 @@
+@import url("./styles/home-page.css");
+@import url("./styles/header.css");
+@import url("./styles/services.css");
+@import "tailwindcss";
+@font-face {
+  font-family: "satoshi-medium";
+  src: url("../public/Satoshi-Medium.otf") format('opentype');
+};
+@font-face {
+  font-family: "satoshi-bold";
+  src: url("../public/Satoshi-Bold.otf") format('opentype');
+};
+@font-face {
+  font-family: "monsterrat-normal";
+  src: url("../public/Montserrat-VariableFont_wght.ttf");
+  font-weight: 600;
+};
+@font-face {
+  font-family: "inter-normal";
+  src: url("../public/Inter-VariableFont_opsz\,wght.ttf");
+  font-weight: 500;
+};
+
+:root {
+  /* ===== Core Backgrounds ===== */
+  --color-bg-primary: #f8fafa;       /* Deep navy-black background */
+  --color-bg-secondary: #8254c1;     /* Slightly lighter section background */
+
+  /* ===== Text ===== */
+  --color-text-primary: black;     /* Soft white-blue for main text */
+  --color-text-secondary: #A0A6C8;   /* Muted steel-blue for subtext */
+
+  /* ===== Accents & Highlights ===== */
+  --color-accent-start: #6342ef;     /* Deep violet start */
+  --color-accent-end: #d2d0d3;       /* Electric blue end */
+  --color-highlight: #8f5aa9;        /* Cyan glow */
+
+  /* ===== Buttons / CTAs ===== */
+  --color-btn-gradient-start: #5B2EFF;  /* Bright purple */
+  --color-btn-gradient-end: #00BFFF;    /* Neon sky-blue */
+
+  /* ===== Utility / States ===== */
+  --color-success: #00F5A0;          /* Optional neon green for AI activity */
+  --color-border: #1E1F3A;           /* Subtle divider */
+
+  /* ===== Gradients ===== */
+  --gradient-accent: linear-gradient(90deg, var(--color-accent-start) 0%, var(--color-accent-end) 50%, var(--color-highlight) 100%);
+  --gradient-button: linear-gradient(90deg, var(--color-btn-gradient-start), var(--color-btn-gradient-end));
+  --gradient-hero: linear-gradient(135deg, var(--color-bg-primary), var(--color-bg-secondary));
+
+  /* ===== Shadows / Glows ===== */
+  --shadow-glow: 0 0 20px var(--color-highlight);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: "satoshi-medium", sans-serif;
+  font-size: 14.5px;
+  overflow-x: hidden;
+}
+
+.padding-x {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.satoshi-bold {
+  font-family: "satoshi-bold", sans-serif;
+}
+
+.montserrat-normal {
+  font-family: "inter-normal", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+}
+
+.glass-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+}
+
+.glass-effect::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8),
+    transparent,
+    rgba(255, 255, 255, 0.3)
+  );
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;   
+  scrollbar-width: none;     
+}
