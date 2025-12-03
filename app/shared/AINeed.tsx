@@ -8,9 +8,9 @@ export default function AINeed() {
             </div>
             <div className="mt-10">
                 <div className="grid grid-cols-6 gap-5">
-                    <div className="col-span-4 flex gap-4 bg-linear-to-tl from-blue-400/10 to-purple-400/10 w-full p-8 border border-gray-400/60 bg-white rounded-xl">
+                    <div className="col-span-4 flex gap-4 bg-linear-to-tl from-blue-800 to-purple-800 shadow-lg text-white w-full p-8 bg-white rounded-xl">
                         <div>
-                            <Brain size={30} className="text-blue-600" />
+                            <Brain size={30} className="text-white" />
                         </div>
                         <div>
                             <p>
@@ -24,7 +24,7 @@ export default function AINeed() {
                             </p>
                         </div>
                     </div>
-                    <div className="col-span-2 bg-linear-to-tl from-blue-400/10 to-purple-400/10 w-full p-8 border border-gray-400/60 bg-white rounded-xl">
+                    <div className="col-span-2 bg-linear-to-tl from-blue-800 to-purple-800 shadow-lg text-white w-full p-8 bg-white rounded-xl">
                         <table className="w-full">
                             <thead>
                                 <tr className="">
@@ -62,44 +62,44 @@ export default function AINeed() {
                             </tbody>
                         </table>
                     </div>
-                    <div className="col-span-2 bg-linear-to-tl from-blue-400/10 to-purple-400/10 w-full p-8 border border-gray-400/60 bg-white rounded-xl">
+                    <div className="col-span-2 bg-linear-to-tl from-blue-800 to-purple-800 shadow-lg text-white w-full p-8 bg-white rounded-xl">
                         <div className="mb-4">
-                            <Zap size={30} className="text-blue-600" />
+                            <Zap size={30} className="text-white" />
                         </div>
                         <div className="text-[16px] font-bold">Effortless Automation</div>
                         <div className="mt-3">AI handles routine workflows like inventory tracking and order processing, saving customers 50% time on daily operations while eliminating manual errors.</div>
                     </div>
-                    <div className="col-span-2 bg-linear-to-tl from-blue-400/10 to-purple-400/10 w-full p-8 border border-gray-400/60 bg-white rounded-xl">
+                    <div className="col-span-2 bg-linear-to-tl from-blue-800 to-purple-800 shadow-lg text-white w-full p-8 bg-white rounded-xl">
                         <div className="mb-4">
-                            <UserCheck size={30} className="text-blue-600" />
+                            <UserCheck size={30} className="text-white" />
                         </div>
                         <div className="text-[16px] font-bold">Instant Personalization</div>
                         <div className="mt-3">Adaptive interfaces analyze behavior in real-time, boosting conversions by 31% and delivering tailored experiences that make every interaction feel custom-built.</div>
                     </div>
-                    <div className="col-span-2 bg-linear-to-tl from-blue-400/10 to-purple-400/10 w-full p-8 border border-gray-400/60 bg-white rounded-xl">
+                    <div className="col-span-2 bg-linear-to-tl from-blue-800 to-purple-800 shadow-lg text-white w-full p-8 bg-white rounded-xl">
                         <div className="mb-4">
-                            <Clock size={30} className="text-blue-600" />
+                            <Clock size={30} className="text-white" />
                         </div>
                         <div className="text-[16px] font-bold">Faster Operations</div>
                         <div className="mt-3">Predictive analytics forecasts demand and prevents 85% of disruptions, enabling seamless scaling during peak loads without added staff or infrastructure.</div>
                     </div>
-                    <div className="col-span-2 bg-linear-to-tl from-blue-400/10 to-purple-400/10 w-full p-8 border border-gray-400/60 bg-white rounded-xl">
+                    <div className="col-span-2 bg-linear-to-tl from-blue-800 to-purple-800 shadow-lg text-white w-full p-8 bg-white rounded-xl">
                         <div className="mb-4">
-                            <DollarSign size={30} className="text-blue-600" />
+                            <DollarSign size={30} className="text-white" />
                         </div>
                         <div className="text-[16px] font-bold">Cost Elimination</div>
                         <div className="mt-3">Reduce support overhead by 40% through intelligent self-service features, freeing budget for growth while maintaining 99.9% uptime.</div>
                     </div>
-                    <div className="col-span-2 bg-linear-to-tl from-blue-400/10 to-purple-400/10 w-full p-8 border border-gray-400/60 bg-white rounded-xl">
+                    <div className="col-span-2 bg-linear-to-tl from-blue-800 to-purple-800 shadow-lg text-white w-full p-8 bg-white rounded-xl">
                         <div className="mb-4">
-                            <TrendingUp size={30} className="text-blue-600" />
+                            <TrendingUp size={30} className="text-white" />
                         </div>
                         <div className="text-[16px] font-bold">Revenue Acceleration</div>
                         <div className="mt-3">AI-powered recommendations and insights drive 2.3x revenue growth by uncovering opportunities and optimizing pricing in real-time.</div>
                     </div>
-                    <div className="col-span-2 bg-linear-to-tl from-blue-400/10 to-purple-400/10 w-full p-8 border border-gray-400/60 bg-white rounded-xl">
+                    <div className="col-span-2 bg-linear-to-tl from-blue-800 to-purple-800 shadow-lg text-white w-full p-8 bg-white rounded-xl">
                         <div className="mb-4">
-                            <CircleCheck size={30} className="text-blue-600" />
+                            <CircleCheck size={30} className="text-white" />
                         </div>
                         <div className="text-[16px] font-bold">Market Truth</div>
                         <div className="mt-3">78% accelerated adoption this year—non-AI products lose 27% more customers. AI simplifies work, saves money, accelerates results.</div>

@@ -6,6 +6,7 @@ import AgencySections from "./shared/Process";
 import { TechStack } from "./shared/TechStack";
 import { Testimonial } from "./shared/Testimonial";
 import AINeed from "./shared/AINeed";
+import Robot from "./shared/Robot";
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
       </div>
 
       <Services />
+      <Robot />
       <Highlights />
       <AINeed />
       <TechStack />
