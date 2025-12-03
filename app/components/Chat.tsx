@@ -5,15 +5,17 @@ import AutoResizeTextarea from "../shared/AutoResizeTextarea";
 export default function Chat() {
     const [text, setText] = useState("");
     const [chat, setChat] = useState<{ id: number, isAgent: boolean, text: string }[]>([
-        { id: 1, isAgent: false, text: "Hi, Can you tell how many types of dog breeds are there." },
-        { id: 2, isAgent: true, text: "Yes Sure, there are about more than 100 breeds of dog." },
-        { id: 3, isAgent: false, text: "What about cats?" },
-        { id: 4, isAgent: true, text: "I can't tell the exact number but there are more than 10 breeds of cat. I can't tell the exact number but there are more than 10 breeds of cat. I can't tell the exact number but there are more than 10 breeds of cat. I can't tell the exact number but there are more than 10 breeds of cat." },
+        { id: 1, isAgent: false, text: "Can you analyze this sales report?" },
+        { id: 2, isAgent: true, text: "Sure. Upload it and I’ll summarize the key insights." },
+        { id: 3, isAgent: false, text: "Uploaded. What’s the main takeaway?" },
+        { id: 4, isAgent: true, text: "Revenue is up 12% this month and customer churn is slightly lower." },
+        { id: 5, isAgent: false, text: "Can you also generate a brief report?" },
+        { id: 6, isAgent: true, text: "Done. I’ve created a concise summary you can download." }
     ]);
 
     return (
-        <div className="padding-x mb-20 w-[60%]">
-            <div className="h-[550px] flex flex-col w-full rounded-xl overflow-hidden bg-[#212327] border-2 border-gray-400">
+        <div className="">
+            <div className=" h-[470px] flex flex-col w-full rounded-xl overflow-hidden bg-black border-2 border-gray-400">
                 <div className="flex gap-2 px-4 py-2 border-b border-neutral-700">
                     <div className="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#fe5f57" viewBox="0 0 16 16">

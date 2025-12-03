@@ -18,7 +18,7 @@ export function Services() {
         <>
             <section className="padding-x mt-24 mb-24 service-section">
                 <div className="flex justify-between">
-                    <div className="w-[50%] montserrat-normal leading-12 text-[40px] text-wrap">
+                    <div className="montserrat-normal leading-12 text-[40px] text-wrap">
                         High impact services<br /> <span className="text-gray-500">build for <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">growth</span></span>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ export function Services() {
                     className={`mySwiper mt-10 ${leftGlow ? 'left-glow' : ''} ${rightGlow ? 'right-glow' : ''}`}
                 >
                     <SwiperSlide>
-                        <div className="py-5 px-6 bg-gray-200 rounded-xl h-[420px] flex flex-col justify-between">
+                        <div className="py-6 px-8 bg-gray-200 rounded-xl h-[440px] flex flex-col justify-between">
                             <div className="text-[16px] font-semibold text-center">Web Development</div>
                             <div className="flex justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 1024 1024" className="icon" version="1.1">
@@ -49,7 +49,7 @@ export function Services() {
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore facilis est corrupti amet dignissimos nulla, possimus atque dolorem provident. Dignissimos fugiat deserunt voluptatibus fugit distinctio magnam eligendi neque harum ad!
                             </div>
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 18 18">
                                     <path d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                 </svg>
                             </div>
@@ -57,13 +57,13 @@ export function Services() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="service-card-background rounded-xl overflow-hidden">
-                            <div className="backdrop-blur-md text-white relative flex flex-col justify-between py-5 px-6 h-[420px]">
+                            <div className="backdrop-blur-md text-white relative flex flex-col justify-between py-6 px-8 h-[440px]">
                                 <div className="text-[16px] font-semibold text-center">AI Automation</div>
                                 <div className="">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore facilis est corrupti amet dignissimos nulla, possimus atque dolorem provident. Dignissimos fugiat deserunt voluptatibus fugit distinctio magnam eligendi neque harum ad!
                                 </div>
                                 <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 18 18">
                                         <path d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                     </svg>
                                 </div>
@@ -71,7 +71,7 @@ export function Services() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="py-5 px-6 bg-gray-200 rounded-xl h-[420px] flex flex-col justify-between">
+                        <div className="py-6 px-8 bg-gray-200 rounded-xl h-[440px] flex flex-col justify-between">
                             <div className="text-[16px] font-semibold text-center">recommendation Engine</div>
                             <div className="flex justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 1024 1024" className="icon" version="1.1"><path d="M304 592h416l104 296h-624L304 592z m328 128c12.8 0 24-11.2 24-24s-11.2-24-24-24-24 11.2-24 24 11.2 24 24 24z m-256-48c12.8 0 24-11.2 24-24s-11.2-24-24-24-24 11.2-24 24 11.2 24 24 24z m136 112c9.6 0 16-6.4 16-16s-6.4-16-16-16-16 6.4-16 16 6.4 16 16 16z m8-256c-12.8 0-24-11.2-24-24s11.2-24 24-24 24 11.2 24 24-11.2 24-24 24z m104 48c-9.6 0-16-6.4-16-16s6.4-16 16-16 16 6.4 16 16-6.4 16-16 16z" fill="#2F4BFF" /><path d="M622.4 112H401.6c9.6 76.8 14.4 142.4 14.4 176 0 35.2-65.6 248-200 592h593.6C673.6 536 608 323.2 608 288c0-33.6 4.8-99.2 14.4-176z m32 0c-9.6 78.4-14.4 144-14.4 176 0 28.8 67.2 248 198.4 580.8 1.6 3.2 1.6 8 1.6 11.2 0 17.6-14.4 32-32 32H214.4c-4.8 0-8 0-11.2-1.6-16-6.4-24-25.6-17.6-41.6C316.8 536 384 316.8 384 288c0-32-4.8-97.6-14.4-176H368c-9.6 0-16-6.4-16-16s6.4-16 16-16h288c9.6 0 16 6.4 16 16s-6.4 16-17.6 16c1.6 0 0 0 0 0z" fill="#08135B" /><path d="M424 480h48c4.8 0 8 3.2 8 8s-3.2 8-8 8H432v48h24c4.8 0 8 3.2 8 8s-3.2 8-8 8H432v48h40c4.8 0 8 3.2 8 8s-3.2 8-8 8H432v48h24c4.8 0 8 3.2 8 8s-3.2 8-8 8H432v48h40c4.8 0 8 3.2 8 8s-3.2 8-8 8H416V480h8z" fill="#08135B" /></svg>
@@ -80,7 +80,7 @@ export function Services() {
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore facilis est corrupti amet dignissimos nulla, possimus atque dolorem provident. Dignissimos fugiat deserunt voluptatibus fugit distinctio magnam eligendi neque harum ad!
                             </div>
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 18 18">
                                     <path d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                 </svg>
                             </div>
@@ -88,13 +88,13 @@ export function Services() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="service-card-background2 rounded-xl overflow-hidden">
-                            <div className="backdrop-blur-md text-white relative flex flex-col justify-between py-5 px-6 h-[420px]">
+                            <div className="backdrop-blur-md text-white relative flex flex-col justify-between py-6 px-8 h-[440px]">
                                 <div className="text-[16px] font-semibold text-center">AI Automation</div>
                                 <div className="">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore facilis est corrupti amet dignissimos nulla, possimus atque dolorem provident. Dignissimos fugiat deserunt voluptatibus fugit distinctio magnam eligendi neque harum ad!
                                 </div>
                                 <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 18 18">
                                         <path d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                     </svg>
                                 </div>
@@ -102,7 +102,7 @@ export function Services() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="py-5 px-6 bg-gray-200 rounded-xl h-[420px] flex flex-col justify-between">
+                        <div className="py-6 px-8 bg-gray-200 rounded-xl h-[440px] flex flex-col justify-between">
                             <div className="text-[16px] font-semibold text-center">recommendation Engine</div>
                             <div className="flex justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 1024 1024" className="icon" version="1.1"><path d="M304 592h416l104 296h-624L304 592z m328 128c12.8 0 24-11.2 24-24s-11.2-24-24-24-24 11.2-24 24 11.2 24 24 24z m-256-48c12.8 0 24-11.2 24-24s-11.2-24-24-24-24 11.2-24 24 11.2 24 24 24z m136 112c9.6 0 16-6.4 16-16s-6.4-16-16-16-16 6.4-16 16 6.4 16 16 16z m8-256c-12.8 0-24-11.2-24-24s11.2-24 24-24 24 11.2 24 24-11.2 24-24 24z m104 48c-9.6 0-16-6.4-16-16s6.4-16 16-16 16 6.4 16 16-6.4 16-16 16z" fill="#2F4BFF" /><path d="M622.4 112H401.6c9.6 76.8 14.4 142.4 14.4 176 0 35.2-65.6 248-200 592h593.6C673.6 536 608 323.2 608 288c0-33.6 4.8-99.2 14.4-176z m32 0c-9.6 78.4-14.4 144-14.4 176 0 28.8 67.2 248 198.4 580.8 1.6 3.2 1.6 8 1.6 11.2 0 17.6-14.4 32-32 32H214.4c-4.8 0-8 0-11.2-1.6-16-6.4-24-25.6-17.6-41.6C316.8 536 384 316.8 384 288c0-32-4.8-97.6-14.4-176H368c-9.6 0-16-6.4-16-16s6.4-16 16-16h288c9.6 0 16 6.4 16 16s-6.4 16-17.6 16c1.6 0 0 0 0 0z" fill="#08135B" /><path d="M424 480h48c4.8 0 8 3.2 8 8s-3.2 8-8 8H432v48h24c4.8 0 8 3.2 8 8s-3.2 8-8 8H432v48h40c4.8 0 8 3.2 8 8s-3.2 8-8 8H432v48h24c4.8 0 8 3.2 8 8s-3.2 8-8 8H432v48h40c4.8 0 8 3.2 8 8s-3.2 8-8 8H416V480h8z" fill="#08135B" /></svg>
@@ -111,7 +111,7 @@ export function Services() {
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore facilis est corrupti amet dignissimos nulla, possimus atque dolorem provident. Dignissimos fugiat deserunt voluptatibus fugit distinctio magnam eligendi neque harum ad!
                             </div>
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 18 18">
                                     <path d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                 </svg>
                             </div>
@@ -119,13 +119,13 @@ export function Services() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="service-card-background rounded-xl overflow-hidden">
-                            <div className="backdrop-blur-md text-white relative flex flex-col justify-between py-5 px-6 h-[420px]">
+                            <div className="backdrop-blur-md text-white relative flex flex-col justify-between py-6 px-8 h-[440px]">
                                 <div className="text-[16px] font-semibold text-center">AI Automation</div>
                                 <div className="">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore facilis est corrupti amet dignissimos nulla, possimus atque dolorem provident. Dignissimos fugiat deserunt voluptatibus fugit distinctio magnam eligendi neque harum ad!
                                 </div>
                                 <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" fill="currentColor" className="bi bi-arrow-up-right-circle-fill" viewBox="0 0 18 18">
                                         <path d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
                                     </svg>
                                 </div>
