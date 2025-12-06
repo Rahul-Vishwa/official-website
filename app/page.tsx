@@ -7,6 +7,8 @@ import { TechStack } from "./shared/TechStack";
 import { Testimonial } from "./shared/Testimonial";
 import AINeed from "./shared/AINeed";
 import Robot from "./shared/Robot";
+import Process from "./shared/Process";
+import Outcomes from "./components/Outcomes";
 
 export default function Home() {
   return (
@@ -29,8 +31,8 @@ export default function Home() {
             <h1 className="montserrat-normal w-[700px] leading-16 text-center text-[50px] font-bold text-wrap">
               Future ready <br /> websites built with <br /> <span className={cssClass.gradientText}>AI precision</span>
             </h1>
-            <h2 className="text-lg">
-              From workflow automation to smart recommendations.
+            <h2 className="text-lg w-[50%] text-center">
+              Full-stack web applications with production-grade AI features. RAG systems, intelligent agents, and automation workflows-integrated seamlessly into your product.
             </h2>
             <div className="flex gap-5 mt-2">
               <button className={cssClass.gradientButton}>Work with us</button>
@@ -44,11 +46,12 @@ export default function Home() {
       </div>
 
       <Services />
-      <Robot />
+      <Outcomes />
       <Highlights />
+      <Robot />
       <AINeed />
+      <Process />
       <TechStack />
-      <AgencySections />
       <Testimonial />
       <Footer />
     </>

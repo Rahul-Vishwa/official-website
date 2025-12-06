@@ -58,7 +58,7 @@ export default function Robot() {
             <div className="padding-x mb-20">
                 <div className="overflow-hidden relative flex justify-center items-center rounded-xl bg-black h-[150px]">
                     <NeuralCanvas />
-                    <div className="z-50">
+                    <div className="z-20">
                         <Typewriter />
                     </div>
                 </div>

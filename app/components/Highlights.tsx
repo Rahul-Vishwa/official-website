@@ -4,89 +4,71 @@ export function Highlights() {
             <div>
                 <div className="montserrat-normal leading-12 text-[40px] text-wrap">
                     Smarter AI experiences<br />
-                    <span className="text-gray-500">crafted for <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">automation</span></span>
+                    <span className="text-gray-500">crafted for <span className="bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">automation</span></span>
                 </div>
                 <div className="mt-10 grid grid-cols-6 gap-5">
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-400/40 p-8">
-                        <div className="px-10 h-[250px] overflow-hidden image-gradient">
+                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                        <div className="px-10 h-[220px] overflow-hidden image-gradient">
                             <img src="/workflow.png" className="rounded-sm shadow-sm"></img>
                         </div>
-                        <div className="flex flex-col gap-5 justify-between">
-                            <div>
-                                <div className="font-semibold text-[16px]">Workflow Automation</div>
-                                <div className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quos magni quaerat deleniti officiis nulla dicta ea sequi error aliquam praesentium, aut explicabo libero? Recusandae consectetur officiis nemo. Ullam, voluptatibus?</div>
-                            </div>
-                            <div className="text-blue-600 font-semibold hover:underline hover:underline-offset-4 cursor-pointer">Know More</div>
+                        <div>
+                            <div className="font-semibold text-[16px]">Autonomous Workflow Automation</div>
+                            <div className="mt-3">AI-driven workflows that execute tasks end-to-end—approvals, data syncing, follow-ups, scheduling, and more. Reduce manual effort, eliminate inconsistencies, and scale operations automatically.</div>
                         </div>
                     </div>
 
 
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-400/40 p-8">
-                        <div className="px-10 h-[250px] overflow-hidden image-gradient">
+                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                        <div className="px-10 h-[220px] overflow-hidden image-gradient">
                             <img src="/searchbot.png" className=""></img>
                         </div>
-                        <div className="flex flex-col gap-5 justify-between">
-                            <div>
-                                <div className="font-semibold text-[16px]">Smart Search</div>
-                                <div className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quos magni quaerat deleniti officiis nulla dicta ea sequi error aliquam praesentium, aut explicabo libero? Recusandae consectetur officiis nemo. Ullam, voluptatibus?</div>
-                            </div>
-                            <div className="text-blue-600 font-semibold hover:underline hover:underline-offset-4 cursor-pointer">Know More</div>
+                        <div>
+                            <div className="font-semibold text-[16px]">Semantic Search & Knowledge Retrieval</div>
+                            <div className="mt-3">Search that understands meaning, not keywords. Instantly surface the most relevant documents, answers, or actions—even in large, complex systems.</div>
                         </div>
                     </div>
 
 
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-400/40 p-8">
-                        <div className="px-6 h-[250px] overflow-hidden image-gradient">
+                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                        <div className="px-6 h-[220px] overflow-hidden image-gradient">
                             <img src="/chatbot-white.png" className=""></img>
                         </div>
-                        <div className="flex flex-col gap-5 justify-between">
-                            <div>
-                                <div className="font-semibold text-[16px]">Chatbot</div>
-                                <div className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quos magni quaerat deleniti officiis nulla dicta ea sequi error aliquam praesentium, aut explicabo libero? Recusandae consectetur officiis nemo. Ullam, voluptatibus?</div>
-                            </div>
-                            <div className="text-blue-600 font-semibold hover:underline hover:underline-offset-4 cursor-pointer">Know More</div>
+                        <div>
+                            <div className="font-semibold text-[16px]">AI Conversation Engine</div>
+                            <div className="mt-3">Give users a natural, human-like interface to your product. Our assistants can guide onboarding, support customers, generate content, and trigger actions inside your system.</div>
                         </div>
                     </div>
 
 
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-400/40 p-8">
-                        <div className="px-6 h-[250px] overflow-hidden image-gradient">
+                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                        <div className="px-6 h-[220px] overflow-hidden image-gradient">
                             <img src="/recommendation.png" className=""></img>
                         </div>
-                        <div className="flex flex-col gap-5 justify-between">
-                            <div>
-                                <div className="font-semibold text-[16px]">Recommendation Engine</div>
-                                <div className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quos magni quaerat deleniti officiis nulla dicta ea sequi error aliquam praesentium, aut explicabo libero? Recusandae consectetur officiis nemo. Ullam, voluptatibus?</div>
-                            </div>
-                            <div className="text-blue-600 font-semibold hover:underline hover:underline-offset-4 cursor-pointer">Know More</div>
+                        <div>
+                            <div className="font-semibold text-[16px]">Personalization & Recommendation Engine</div>
+                            <div className="mt-3">Deliver hyper-personalized product suggestions, content recommendations, and next-best actions based on real-time user behavior and historical patterns.</div>
                         </div>
                     </div>
 
 
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-400/40 p-8">
-                        <div className="px-10 h-[250px] overflow-hidden image-gradient">
+                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                        <div className="px-10 h-[220px] overflow-hidden image-gradient">
                             <img src="/performance.png" className="rounded-md"></img>
                         </div>
-                        <div className="flex flex-col gap-5 justify-between">
-                            <div>
-                                <div className="font-semibold text-[16px]">Analytics & Insights</div>
-                                <div className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quos magni quaerat deleniti officiis nulla dicta ea sequi error aliquam praesentium, aut explicabo libero? Recusandae consectetur officiis nemo. Ullam, voluptatibus?</div>
-                            </div>
-                            <div className="text-blue-600 font-semibold hover:underline hover:underline-offset-4 cursor-pointer">Know More</div>
+                        <div>
+                            <div className="font-semibold text-[16px]">Predictive Analytics & Business Intelligence</div>
+                            <div className="mt-3">AI uncovers hidden trends, predicts outcomes, and offers actionable insights. Get clarity on what’s happening, why it’s happening, and what to do next.</div>
                         </div>
                     </div>
 
 
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-400/40 p-8">
-                        <div className="px-10 h-[250px] overflow-hidden image-gradient">
+                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                        <div className="px-10 h-[220px] overflow-hidden image-gradient">
                             <img src="/documentupload.png" className="rounded-md"></img>
                         </div>
-                        <div className="flex flex-col gap-5 justify-between">
-                            <div>
-                                <div className="font-semibold text-[16px]">Document Intelligence</div>
-                                <div className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quos magni quaerat deleniti officiis nulla dicta ea sequi error aliquam praesentium, aut explicabo libero? Recusandae consectetur officiis nemo. Ullam, voluptatibus?</div>
-                            </div>
-                            <div className="text-blue-600 font-semibold hover:underline hover:underline-offset-4 cursor-pointer">Know More</div>
+                        <div>
+                            <div className="font-semibold text-[16px]">Document Intelligence</div>
+                            <div className="mt-3">Transform PDFs, invoices, contracts, and images into structured, usable data. Our AI identifies entities, extracts fields, classifies documents, and summarizes content with high accuracy.</div>
                         </div>
                     </div>
                 </div>
