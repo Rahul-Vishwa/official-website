@@ -89,20 +89,6 @@
   }
 }
 
-.service-card-background {
-  background-image: url("/background10.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.service-card-background2 {
-  background-image: url("/background1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .card {
   position: relative;
   border-radius: 20px;

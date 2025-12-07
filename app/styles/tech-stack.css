@@ -1,0 +1,8 @@
+@keyframes floatA { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+@keyframes floatB { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
+@keyframes floatC { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-18px); } }
+@keyframes floatD { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-30px); } }
+@keyframes floatE { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-25px); } }
+
+/* optional: reduce text selection drift during animation */
+.tech-block { display:flex; align-items:center; justify-content:center; user-select:none; }

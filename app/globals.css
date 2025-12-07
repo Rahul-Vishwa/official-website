@@ -3,7 +3,10 @@
 @import url("./styles/services.css");
 @import url("./styles/highlights.css");
 @import url("./styles/process.css");
+@import url("./styles/tech-stack.css");
+
 @import "tailwindcss";
+
 @font-face {
   font-family: "satoshi-medium";
   src: url("../public/Satoshi-Medium.otf") format('opentype');
@@ -143,4 +146,8 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none;   
   scrollbar-width: none;     
+}
+
+.bg-gray-card {
+  background-color: #e5e7eb;
 }

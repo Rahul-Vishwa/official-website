@@ -7,7 +7,7 @@ export function Highlights() {
                     <span className="text-gray-500">crafted for <span className="bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">automation</span></span>
                 </div>
                 <div className="mt-10 grid grid-cols-6 gap-5">
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                    <div className="col-span-2 rounded-xl bg-gray-card border border-neutral-300 p-8">
                         <div className="px-10 h-[220px] overflow-hidden image-gradient">
                             <img src="/workflow.png" className="rounded-sm shadow-sm"></img>
                         </div>
@@ -17,8 +17,7 @@ export function Highlights() {
                         </div>
                     </div>
 
-
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                    <div className="col-span-2 rounded-xl bg-gray-card border border-neutral-300 p-8">
                         <div className="px-10 h-[220px] overflow-hidden image-gradient">
                             <img src="/searchbot.png" className=""></img>
                         </div>
@@ -29,7 +28,7 @@ export function Highlights() {
                     </div>
 
 
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                    <div className="col-span-2 rounded-xl bg-gray-card border border-neutral-300 p-8">
                         <div className="px-6 h-[220px] overflow-hidden image-gradient">
                             <img src="/chatbot-white.png" className=""></img>
                         </div>
@@ -40,7 +39,7 @@ export function Highlights() {
                     </div>
 
 
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                    <div className="col-span-2 rounded-xl bg-gray-card border border-neutral-300 p-8">
                         <div className="px-6 h-[220px] overflow-hidden image-gradient">
                             <img src="/recommendation.png" className=""></img>
                         </div>
@@ -51,7 +50,7 @@ export function Highlights() {
                     </div>
 
 
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                    <div className="col-span-2 rounded-xl bg-gray-card border border-neutral-300 p-8">
                         <div className="px-10 h-[220px] overflow-hidden image-gradient">
                             <img src="/performance.png" className="rounded-md"></img>
                         </div>
@@ -62,7 +61,7 @@ export function Highlights() {
                     </div>
 
 
-                    <div className="col-span-2 rounded-xl bg-gray-200 border border-neutral-300 p-8">
+                    <div className="col-span-2 rounded-xl bg-gray-card border border-neutral-300 p-8">
                         <div className="px-10 h-[220px] overflow-hidden image-gradient">
                             <img src="/documentupload.png" className="rounded-md"></img>
                         </div>

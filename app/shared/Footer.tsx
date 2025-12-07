@@ -1,8 +1,12 @@
+import NeuralCanvas from "./NeuralLink";
+
 export function Footer() {
     return (
         <footer className="padding-x mb-5 text-white">
-            <div className="rounded-xl overflow-hidden" style={{ backgroundImage: 'url("/background10.jpg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <div className="p-10 flex justify-between backdrop-blur-3xl">
+            <div className="rounded-xl overflow-hidden bg-black relative">
+                <NeuralCanvas />
+            {/* <div className="rounded-xl overflow-hidden" style={{ backgroundImage: 'url("/background10.jpg")', backgroundSize: 'cover', backgroundPosition: 'center' }}> */}
+                <div className="p-10 flex justify-between backdrop-blur-xs">
                     <div>
                         <div className="font-semibold text-xl flex gap-3 items-center">
                             <div className="w-4 h-4 overflow-hidden relative">
