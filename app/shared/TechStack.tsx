@@ -127,22 +127,22 @@ export function TechStack() {
                     </div>
                 </div>
                 <div className="grid grid-cols-6 gap-5 mt-2">
-                    <div className="col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
+                    <div className="group col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
                         <div className="text-[16px] font-semibold">AI Orchestration & Agent Frameworks</div>
                         <div className="flex gap-3 flex-wrap mt-5">
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 LangGraph
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 LangChain
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 LlamaIndex
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 CrewAI
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 HuggingFace
                             </div>
                         </div>
@@ -150,22 +150,22 @@ export function TechStack() {
                             Tools for building intelligent agents, multi-step workflows, document routing, retrieval pipelines, and AI-powered automation inside web apps.
                         </div>
                     </div>
-                    <div className="col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
+                    <div className="group col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
                         <div className="text-[16px] font-semibold">Retrieval & Vector Databases</div>
                         <div className="flex gap-3 flex-wrap mt-5">
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Pinecone
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Weaviate
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Qdrant
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Milvus
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Chroma
                             </div>
                         </div>
@@ -173,22 +173,22 @@ export function TechStack() {
                             Semantic search and retrieval systems for document Q&A, AI chatbots, enterprise knowledge bases, and personalized user experiences.
                         </div>
                     </div>
-                    <div className="col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
+                    <div className="group col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
                         <div className="text-[16px] font-semibold">Embeddings & Text Processing</div>
                         <div className="flex gap-3 flex-wrap mt-5">
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 OpenAI
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Gemini
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Voyage AI
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Cohere
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 HuggingFace
                             </div>
                         </div>
@@ -196,22 +196,22 @@ export function TechStack() {
                             Used to convert documents, knowledge bases, and user content into high-quality embeddings for retrieval and personalization.
                         </div>
                     </div>
-                    <div className="col-span-3 bg-gray-card border border-neutral-300 p-8 rounded-xl">
+                    <div className="group col-span-3 bg-gray-card border border-neutral-300 p-8 rounded-xl">
                         <div className="text-[16px] font-semibold">LLM Providers & Model Hosting</div>
                         <div className="flex gap-3 flex-wrap mt-5">
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 OpenAI (GPT-4 / GPT-4.1 / o series)
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Anthropic (Claude 3.5 / 3.7)
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Google Gemini
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Groq
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Open-source models (Llama3, Mistral)
                             </div>
                         </div>
@@ -219,28 +219,28 @@ export function TechStack() {
                             Flexible mix of commercial and open-source models to power chat experiences, reasoning tools, and context-aware assistants.
                         </div>
                     </div>
-                    <div className="col-span-3 bg-gray-card border border-neutral-300 p-8 rounded-xl">
+                    <div className="group col-span-3 bg-gray-card border border-neutral-300 p-8 rounded-xl">
                         <div className="text-[16px] font-semibold">Full-Stack Development</div>
                         <div className="flex gap-3 flex-wrap mt-5">
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Angular
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 React/Next.js
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Node.js (NestJS / Express)
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 .NET Core APIs
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 PostgreSQL
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 MongoDB
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 SQL
                             </div>
                         </div>
@@ -248,19 +248,19 @@ export function TechStack() {
                             Modern frontend and backend stack enabling fast, secure applications with built-in support for AI workflows.
                         </div>
                     </div>
-                    <div className="col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
+                    <div className="group col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
                         <div className="text-[16px] font-semibold">Caching, Realtime & State Management</div>
                         <div className="flex gap-3 flex-wrap mt-5">
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Redis
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Upstash
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Socket.IO
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 WebSockets
                             </div>
                         </div>
@@ -268,22 +268,22 @@ export function TechStack() {
                             For fast AI response caching, session tracking for agents, realtime chats, streaming tokens, and collaborative AI interfaces.
                         </div>
                     </div>
-                    <div className="col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
+                    <div className="group col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
                         <div className="text-[16px] font-semibold">Hosting, Deployment & DevOps</div>
                         <div className="flex gap-3 flex-wrap mt-5">
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Cloudflare
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 AWS
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Azure
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Vercel
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 DigitalOcean
                             </div>
                         </div>
@@ -291,19 +291,19 @@ export function TechStack() {
                             Optimized for AI workloads with streaming support, serverless executors, secure API deployments, and edge-accelerated inference.
                         </div>
                     </div>
-                    <div className="col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
+                    <div className="group col-span-2 bg-gray-card border border-neutral-300 p-8 rounded-xl">
                         <div className="text-[16px] font-semibold">Monitoring & AI Observability</div>
                         <div className="flex gap-3 flex-wrap mt-5">
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Sentry
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 LogSnag
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 LangSmith
                             </div>
-                            <div className="border border-neutral-400 px-3 py-1 rounded-md flex gap-2 items-center">
+                            <div className="border border-neutral-400 transition-all duration-500 group-hover:bg-black group-hover:text-white px-3 py-1 rounded-md flex gap-2 items-center">
                                 Grafana
                             </div>
                         </div>

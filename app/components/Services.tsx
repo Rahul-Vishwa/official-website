@@ -111,7 +111,7 @@ export function Services() {
                     onSlideChange={(swiper) => handleUpdateGlow(swiper)}
                     onReachBeginning={(swiper) => handleUpdateGlow(swiper)}
                     onReachEnd={(swiper) => handleUpdateGlow(swiper)}
-                    className={`mySwiper mt-10 ${leftGlow ? 'left-glow' : ''} ${rightGlow ? 'right-glow' : ''}`}
+                    className={`mySwiper text-center mt-10 ${leftGlow ? 'left-glow' : ''} ${rightGlow ? 'right-glow' : ''}`}
                 >
                     {
                         services.map(service => {
@@ -130,7 +130,7 @@ export function Services() {
                                             </div>
                                             <div className="flex gap-2 flex-wrap justify-center">
                                                 {
-                                                    service.tags.map(tag => <div className="group-hover:bg-white group-hover:text-black border border-neutral-300 text-xs rounded-full py-1 px-3">{tag}</div>)
+                                                    service.tags.map(tag => <div className="transition-all duration-500 group-hover:bg-white group-hover:text-black border border-neutral-300 text-xs rounded-full py-1 px-3">{tag}</div>)
                                                 }
                                             </div>
                                         </div>
@@ -151,7 +151,7 @@ export function Services() {
                                         </div>
                                         <div className="flex gap-2 flex-wrap justify-center">
                                             {
-                                                service.tags.map(tag => <div className="group-hover:bg-black group-hover:text-white border border-neutral-400 text-xs rounded-full py-1 px-3">{tag}</div>)
+                                                service.tags.map(tag => <div className="transition-all duration-500 group-hover:bg-black group-hover:text-white border border-neutral-400 text-xs rounded-full py-1 px-3">{tag}</div>)
                                             }
                                         </div>
                                     </div>
