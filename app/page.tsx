@@ -11,6 +11,8 @@ import Process from "./shared/Process";
 import Outcomes from "./components/Outcomes";
 import { Blogs } from "./components/Blogs";
 import { Faq } from "./components/Faq";
+import WhyUs from "./components/WhyUs";
+import Cta from "./shared/Cta";
 
 export default function Home() {
   return (
@@ -47,7 +49,9 @@ export default function Home() {
       <Process />
       <TechStack />
       <Outcomes />
+      <WhyUs />
       <Faq />
+      <Cta />
       <Testimonial />
       <Footer />
     </>

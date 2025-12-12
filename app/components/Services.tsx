@@ -95,7 +95,7 @@ export function Services() {
 
     return (
         <>
-            <section className="padding-x mt-20 mb-20 service-section">
+            <section className="padding-x mt-24 mb-24 service-section">
                 <div className="flex justify-between">
                     <div className="montserrat-normal leading-12 text-[40px] text-wrap">
                         High impact services<br /> <span className="text-gray-500">build for <span className="bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">growth</span></span>
@@ -130,7 +130,7 @@ export function Services() {
                                             </div>
                                             <div className="flex gap-2 flex-wrap justify-center">
                                                 {
-                                                    service.tags.map(tag => <div className="transition-all duration-500 group-hover:bg-white group-hover:text-black border border-neutral-300 text-xs rounded-full py-1 px-3">{tag}</div>)
+                                                    service.tags.map(tag => <div key={tag} className="transition-all duration-500 group-hover:bg-white group-hover:text-black border border-neutral-300 text-xs rounded-full py-1 px-3">{tag}</div>)
                                                 }
                                             </div>
                                         </div>
@@ -139,7 +139,7 @@ export function Services() {
                             }
                             else {
                                 return <SwiperSlide>
-                                    <div key={service.title} className="group py-6 px-8 bg-gray-card border border-neutral-300 rounded-xl flex flex-col justify-between h-[440px]">
+                                    <div key={service.title} className="group py-6 px-8 bg-gray-card  rounded-xl flex flex-col justify-between h-[440px]">
                                         <div className="flex flex-col gap-5">
                                             <div className="text-[16px] font-semibold text-center">{service.title}</div>
                                             <div className="flex justify-center">
@@ -151,7 +151,7 @@ export function Services() {
                                         </div>
                                         <div className="flex gap-2 flex-wrap justify-center">
                                             {
-                                                service.tags.map(tag => <div className="transition-all duration-500 group-hover:bg-black group-hover:text-white border border-neutral-400 text-xs rounded-full py-1 px-3">{tag}</div>)
+                                                service.tags.map(tag => <div key={tag} className="transition-all duration-500 group-hover:bg-black group-hover:text-white border border-neutral-400 text-xs rounded-full py-1 px-3">{tag}</div>)
                                             }
                                         </div>
                                     </div>

@@ -2,11 +2,11 @@ export default function Outcomes() {
     return (
         <section className="padding-x mb-20">
             <div className="flex justify-center w-full">
-                <div className="border border-blue-600 bg-blue-200 rounded-full px-5 py-1">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nobis dignissimos assumenda itaque?
+                <div className="text-lg font-semibold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                    Wander on the land of the AI World with us and see what excites you.
                 </div>
             </div>
-            <div className="mt-8 grid grid-cols-3 gap-5">
+            <div className="mt-5 grid grid-cols-3 gap-5">
                 <div className="group relative bg-black rounded-xl text-white p-8 pb-30 overflow-hidden">
                     <div className="pointer-events-none absolute -top-25 -right-10 w-50 h-50 
                             bg-[radial-gradient(circle,rgba(147,197,253,0.6),transparent_70%)] 

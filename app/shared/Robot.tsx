@@ -55,7 +55,7 @@ function Typewriter() {
 export default function Robot() {
     return (
         <section>
-            <div className="padding-x mb-20">
+            <div className="padding-x mb-24">
                 <div className="overflow-hidden relative flex justify-center items-center rounded-xl bg-black h-[150px]">
                     <NeuralCanvas />
                     <div className="z-20">

@@ -29,7 +29,7 @@
 
 :root {
   /* Core Backgrounds */
-  --color-bg-primary: #f8fafa;
+  --color-bg-primary: #fff;
   --color-bg-secondary: #8254c1;
 
   /* Text */
@@ -94,8 +94,8 @@ body {
 }
 
 .padding-x {
-  padding-left: 110px;
-  padding-right: 110px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .satoshi-bold {
@@ -150,5 +150,5 @@ body {
 }
 
 .bg-gray-card {
-  background-color: #e5e7eb;
+  background-color: #f4f6f8;
 }

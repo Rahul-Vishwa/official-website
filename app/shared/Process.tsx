@@ -32,7 +32,7 @@ const process: {
 
 export default function Process() {
     return (
-        <section className="padding-x mb-20">
+        <section className="padding-x mb-24">
             <div className="montserrat-normal leading-12 text-[40px] text-wrap">
                 Our workflow<br /> <span className="text-gray-500">optimized for <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">scalability</span></span>
             </div>
@@ -40,7 +40,7 @@ export default function Process() {
             <div className="grid grid-cols-3 gap-5 mt-10">
                 {
                     process.map((step, index) => (
-                        <div className="relative bg-black rounded-xl text-white p-8 pb-26 overflow-hidden">
+                        <div key={step.title} className="relative bg-black rounded-xl text-white p-8 pb-26 overflow-hidden">
                             <div className="pointer-events-none absolute -top-25 -right-10 w-50 h-50 
                             bg-[radial-gradient(circle,rgba(147,197,253,0.6),transparent_70%)] 
                             blur-2xl">

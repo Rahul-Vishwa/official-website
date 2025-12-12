@@ -42,33 +42,37 @@
 }
 
 .blob-blue-highlight {
-  top: -80px;
+  z-index: 10;
+  top: 20px;
   left: 0px;
   opacity: 0.3;
   animation: blobMoveRight 3s ease-in-out infinite alternate;
 }
 
 .blob-purple-highlight {
+  z-index: 10;
   filter: blur(70px) brightness(1.1) contrast(100%) hue-rotate(21deg);
-  top: -80px;
+  top: 20px;
   left: 300px;
-  opacity: 0.1;
+  opacity: 0.3;
   animation: blobMoveRight 2s ease-in-out infinite alternate;
 }
 
 .blob-voilet-highlight {
+  z-index: 10;
   filter: blur(70px) brightness(1.1) contrast(100%) hue-rotate(250deg);
-  top: -80px;
+  top: 20px;
   left: 500px;
-  opacity: 0.1;
+  opacity: 0.3;
   animation: blobMoveLeft 4s ease-in-out infinite alternate;
 }
 
 .blob-yellow-highlight {
+  z-index: 10;
   filter: blur(70px) brightness(1.1) contrast(100%) hue-rotate(108deg);
-  top: -80px;
+  top: 20px;
   right: -200px;
-  opacity: 0.1;
+  opacity: 0.3;
   animation: blobMoveLeft 3s ease-in-out infinite alternate;
 }
 
