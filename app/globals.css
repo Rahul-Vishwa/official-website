@@ -60,7 +60,7 @@
 }
 
 /* Dark theme tokens — same variable names, different values */
-[data-theme="dark"] {
+/* [data-theme="dark"] {
   --color-bg-primary: #0D0E11;     
   --color-bg-secondary: #16181D;
 
@@ -83,7 +83,7 @@
 
   --shadow-glow: 0 0 20px var(--color-highlight);
   --shadow-card: 0 4px 20px rgba(0,0,0,0.45);
-}
+} */
 
 body {
   background: var(--color-bg-primary);
