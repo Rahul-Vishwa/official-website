@@ -59,15 +59,9 @@ export const faqs = [
 export function Faq() {
     return (
         <section>
-            <div className="padding-x mb-20 relative">
+            <div className="padding-x mb-24 relative">
                 <div className="montserrat-normal leading-12 text-[40px] text-wrap">
-                    Our technology ecosystem <br />
-                    <span className="text-gray-500">
-                        crafted for{" "}
-                        <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-                            performance
-                        </span>
-                    </span>
+                    <span className="text-gray-500">Quick <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">answers</span></span>
                 </div>
 
                 <Swiper
@@ -85,8 +79,8 @@ export function Faq() {
                 >
                     {faqs.map((faq, index) => (
                         <SwiperSlide key={faq.question}>
-                            <div className="h-[250px] flex flex-col justify-end bg-gray-200 p-8 border border-neutral-300 rounded-xl">
-                                <div className="text-[16px] font-semibold">{faq.question}</div>
+                            <div className="h-[275px] flex flex-col justify-end bg-gray-card p-8 rounded-xl">
+                                <div className="text-xl font-semibold">{faq.question}</div>
                                 <div className="mt-5 animate-fadeIn">
                                     {faq.answer}
                                 </div>

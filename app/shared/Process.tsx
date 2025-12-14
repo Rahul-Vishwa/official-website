@@ -32,27 +32,29 @@ const process: {
 
 export default function Process() {
     return (
-        <section className="padding-x mb-24">
+        <section id="process" className="padding-x mb-24">
             <div className="montserrat-normal leading-12 text-[40px] text-wrap">
                 Our workflow<br /> <span className="text-gray-500">optimized for <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">scalability</span></span>
             </div>
 
-            <div className="grid grid-cols-3 gap-5 mt-10">
+            <div className="grid grid-cols-2 gap-5 mt-10">
                 {
                     process.map((step, index) => (
-                        <div key={step.title} className="relative bg-black rounded-xl text-white p-8 pb-26 overflow-hidden">
-                            <div className="pointer-events-none absolute -top-25 -right-10 w-50 h-50 
-                            bg-[radial-gradient(circle,rgba(147,197,253,0.6),transparent_70%)] 
-                            blur-2xl">
-                            </div>
-                            <div className="pointer-events-none absolute -bottom-10 -left-25 w-50 h-50 
-                            bg-[radial-gradient(circle,rgba(192,132,252,0.7),transparent_70%)] 
-                            blur-2xl">
-                            </div>
-                            <div className="text-[16px] font-semibold">{step.title}</div>
-                            <div className="mt-3">{step.description}</div>
-                            <div className="text-white absolute -bottom-3 right-20 text-8xl">
+                        <div key={step.title} className="relative flex gap-8 bg-black rounded-xl text-white p-8 overflow-hidden group">
+                            <div className="text-white -bottom-10 right-20 text-4xl">
                                 {index + 1}
+                            </div>
+                            <div>
+                                <div className="pointer-events-none absolute -top-25 -right-10 w-50 h-50 
+                            bg-[radial-gradient(circle,rgba(147,197,253,0.5),transparent_70%)] 
+                            blur-2xl transition-all duration-500 group-hover:translate-y-40">
+                                </div>
+                                <div className="pointer-events-none absolute -bottom-10 -left-25 w-50 h-50 
+                            bg-[radial-gradient(circle,rgba(192,132,252,0.5),transparent_70%)] 
+                            blur-2xl transition-all duration-700 group-hover:-translate-y-20">
+                                </div>
+                                <div className="text-xl font-semibold">{step.title}</div>
+                                <div className="mt-3">{step.description}</div>
                             </div>
                         </div>
                     ))

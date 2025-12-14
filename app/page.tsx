@@ -47,12 +47,13 @@ export default function Home() {
       <Robot />
       <AINeed />
       <Process />
+      <WhyUs />
       <TechStack />
       <Outcomes />
-      <WhyUs />
       <Faq />
       <Cta />
       <Testimonial />
+      <Blogs />
       <Footer />
     </>
   );
