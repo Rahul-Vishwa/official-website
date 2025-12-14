@@ -1,7 +1,13 @@
 @import url("./styles/home-page.css");
 @import url("./styles/header.css");
 @import url("./styles/services.css");
+@import url("./styles/highlights.css");
+@import url("./styles/process.css");
+@import url("./styles/tech-stack.css");
+@import url("./styles/faq.css");
+
 @import "tailwindcss";
+
 @font-face {
   font-family: "satoshi-medium";
   src: url("../public/Satoshi-Medium.otf") format('opentype');
@@ -22,35 +28,61 @@
 };
 
 :root {
-  /* ===== Core Backgrounds ===== */
-  --color-bg-primary: #f8fafa;       /* Deep navy-black background */
-  --color-bg-secondary: #8254c1;     /* Slightly lighter section background */
+  /* Core Backgrounds */
+  --color-bg-primary: #fff;
+  --color-bg-secondary: #8254c1;
 
-  /* ===== Text ===== */
-  --color-text-primary: black;     /* Soft white-blue for main text */
-  --color-text-secondary: #A0A6C8;   /* Muted steel-blue for subtext */
+  /* Text */
+  --color-text-primary: #0b1220;
+  --color-text-secondary: #A0A6C8;
 
-  /* ===== Accents & Highlights ===== */
-  --color-accent-start: #6342ef;     /* Deep violet start */
-  --color-accent-end: #d2d0d3;       /* Electric blue end */
-  --color-highlight: #8f5aa9;        /* Cyan glow */
+  /* Accents & highlights */
+  --color-accent-start: #6342ef;
+  --color-accent-end: #d2d0d3;
+  --color-highlight: #8f5aa9;
 
-  /* ===== Buttons / CTAs ===== */
-  --color-btn-gradient-start: #5B2EFF;  /* Bright purple */
-  --color-btn-gradient-end: #00BFFF;    /* Neon sky-blue */
+  /* Buttons / CTAs */
+  --color-btn-gradient-start: #5B2EFF;
+  --color-btn-gradient-end: #00BFFF;
 
-  /* ===== Utility / States ===== */
-  --color-success: #00F5A0;          /* Optional neon green for AI activity */
-  --color-border: #1E1F3A;           /* Subtle divider */
+  /* Utility / states */
+  --color-success: #00F5A0;
+  --color-border: #e6e8f0;
 
-  /* ===== Gradients ===== */
+  /* Gradients */
   --gradient-accent: linear-gradient(90deg, var(--color-accent-start) 0%, var(--color-accent-end) 50%, var(--color-highlight) 100%);
   --gradient-button: linear-gradient(90deg, var(--color-btn-gradient-start), var(--color-btn-gradient-end));
   --gradient-hero: linear-gradient(135deg, var(--color-bg-primary), var(--color-bg-secondary));
 
-  /* ===== Shadows / Glows ===== */
+  /* Shadows / glows */
   --shadow-glow: 0 0 20px var(--color-highlight);
-  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --shadow-card: 0 4px 20px rgba(11,18,32,0.06);
+}
+
+/* Dark theme tokens — same variable names, different values */
+[data-theme="dark"] {
+  --color-bg-primary: #0D0E11;     
+  --color-bg-secondary: #16181D;
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #A0A6C8;
+
+  --color-accent-start: #6342ef;
+  --color-accent-end: #d2d0d3;
+  --color-highlight: #8f5aa9;
+
+  --color-btn-gradient-start: #5B2EFF;
+  --color-btn-gradient-end: #00BFFF;
+
+  --color-success: #00F5A0;
+  --color-border: #1E1F3A;
+
+  --gradient-accent: linear-gradient(90deg, var(--color-accent-start) 0%, var(--color-accent-end) 50%, var(--color-highlight) 100%);
+  --gradient-button: linear-gradient(90deg, var(--color-btn-gradient-start), var(--color-btn-gradient-end));
+  --gradient-hero: linear-gradient(135deg, var(--color-bg-primary), var(--color-bg-secondary));
+
+  --shadow-glow: 0 0 20px var(--color-highlight);
+  --shadow-card: 0 4px 20px rgba(0,0,0,0.45);
 }
 
 body {
@@ -62,8 +94,43 @@ body {
 }
 
 .padding-x {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 640px) {
+  .padding-x {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .padding-x {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .padding-x {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .padding-x {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .padding-x {
+    padding-left: 280px;
+    padding-right: 280px;
+  }
 }
 
 .satoshi-bold {
@@ -81,7 +148,6 @@ body {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  overflow: hidden;
 }
 
 .glass-effect::before {
@@ -93,21 +159,6 @@ body {
   height: 1px;
 }
 
-.glass-effect::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.8),
-    transparent,
-    rgba(255, 255, 255, 0.3)
-  );
-}
-
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -115,4 +166,8 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none;   
   scrollbar-width: none;     
+}
+
+.bg-gray-card {
+  background-color: #f4f6f8;
 }
