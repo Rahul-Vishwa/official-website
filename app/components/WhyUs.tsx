@@ -3,11 +3,11 @@ import { BadgeDollarSign, BadgeDollarSignIcon, CircleDollarSignIcon, DollarSign 
 export default function WhyUs() {
     return (
         <section className="mb-20 padding-x">
-            <div className="montserrat-normal leading-12 text-[40px] text-wrap">
+            <div className="montserrat-normal leading-tight md:leading-12 text-2xl md:text-[40px] text-wrap">
                 Why businesses pick us <br />
                 <span className="text-gray-500">driven by <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">innovation</span></span>
             </div>
-            <div className="mt-10 grid grid-cols-3 grid-rows-2 gap-5">
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-5">
                 <div className="col-span-1 row-span-1 p-8 bg-gray-card rounded-xl flex flex-col gap-3 transition-colors duration-500 hover:bg-linear-to-br hover:from-[#d0c4f8] hover:to-[#fcdccc]">
                     <div className="text-xl font-semibold">
                         Custom Solutions Tailored to Your Business
@@ -27,7 +27,7 @@ export default function WhyUs() {
                 </div>
 
 
-                <div className="col-span-1 flex flex-col justify-between row-span-2 p-8 bg-linear-to-br from-[#d0c4f8] to-[#fcdccc] rounded-xl gap-6">
+                <div className="col-span-1 md:col-span-2 lg:col-span-1 flex flex-col justify-between lg:row-span-2 p-8 bg-linear-to-br from-[#d0c4f8] to-[#fcdccc] rounded-xl gap-6">
                     <div className="">
                         <DollarSign size={60} className="text-neutral-600" />
                     </div>

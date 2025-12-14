@@ -60,7 +60,7 @@ export function Faq() {
     return (
         <section>
             <div className="padding-x mb-24 relative">
-                <div className="montserrat-normal leading-12 text-[40px] text-wrap">
+                <div className="montserrat-normal leading-tight md:leading-12 text-2xl md:text-[40px] text-wrap">
                     <span className="text-gray-500">Quick <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">answers</span></span>
                 </div>
 
@@ -79,7 +79,7 @@ export function Faq() {
                 >
                     {faqs.map((faq, index) => (
                         <SwiperSlide key={faq.question}>
-                            <div className="h-[275px] flex flex-col justify-end bg-gray-card p-8 rounded-xl">
+                            <div className="min-h-[275px] flex flex-col justify-end bg-gray-card p-8 rounded-xl">
                                 <div className="text-xl font-semibold">{faq.question}</div>
                                 <div className="mt-5 animate-fadeIn">
                                     {faq.answer}

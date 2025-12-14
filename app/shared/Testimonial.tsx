@@ -2,7 +2,7 @@ export function Testimonial() {
     return (
         <section className="padding-x pb-24">
             
-            <div className="w-[50%] montserrat-normal leading-12 text-[40px] text-wrap">
+            <div className="w-full md:w-[80%] lg:w-[50%] montserrat-normal leading-tight md:leading-12 text-2xl md:text-[40px] text-wrap">
                 What people say<br /> 
                 <span className="text-gray-500">
                     about our <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">work</span>

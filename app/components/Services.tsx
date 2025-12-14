@@ -97,13 +97,20 @@ export function Services() {
         <>
             <section id="services" className="padding-x mt-24 mb-24 service-section">
                 <div className="flex justify-between">
-                    <div className="montserrat-normal leading-12 text-[40px] text-wrap">
+                    <div className="montserrat-normal leading-tight md:leading-12 text-2xl md:text-[40px] text-wrap">
                         High impact services<br /> <span className="text-gray-500">build for <span className="bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">growth</span></span>
                     </div>
                 </div>
                 <Swiper
-                    slidesPerView={4.3}
-                    spaceBetween={20}
+                    breakpoints={{
+                        320: { slidesPerView: 1.1, spaceBetween: 12 },
+                        640: { slidesPerView: 1.8, spaceBetween: 16 },
+                        768: { slidesPerView: 2.4, spaceBetween: 18 },
+                        1024: { slidesPerView: 3.2, spaceBetween: 20 },
+                        1280: { slidesPerView: 4.3, spaceBetween: 20 },
+                    }}
+                    slidesPerView={1.1}
+                    spaceBetween={12}
                     pagination={{
                         clickable: true,
                     }}

@@ -94,8 +94,43 @@ body {
 }
 
 .padding-x {
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 640px) {
+  .padding-x {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .padding-x {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .padding-x {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .padding-x {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .padding-x {
+    padding-left: 280px;
+    padding-right: 280px;
+  }
 }
 
 .satoshi-bold {

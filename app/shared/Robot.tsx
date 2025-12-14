@@ -45,7 +45,7 @@ function Typewriter() {
     }, [subIndex, isDeleting, index]);
 
     return (
-        <div className="inline-flex text-2xl font-semibold p-5 rounded-xl text-white">
+        <div className="inline-flex text-lg md:text-2xl font-semibold p-3 md:p-5 rounded-xl text-white">
             <span className="bg-linear-to-r from-pink-400 to-purple-300 bg-clip-text text-transparent">{words[index].substring(0, subIndex)}</span>
             <span className="ml-1 animate-pulse">|</span>
         </div>
@@ -56,7 +56,7 @@ export default function Robot() {
     return (
         <section>
             <div className="padding-x mb-24">
-                <div className="overflow-hidden relative flex justify-center items-center rounded-xl bg-black h-[150px]">
+                <div className="overflow-hidden relative flex justify-center items-center rounded-xl bg-black h-[120px] md:h-[150px]">
                     <NeuralCanvas />
                     <div className="z-20">
                         <Typewriter />

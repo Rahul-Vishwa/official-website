@@ -6,7 +6,7 @@ export default function Outcomes() {
                     Wander on the land of the AI World with us and see what excites you.
                 </div>
             </div> */}
-            <div className="mt-5 grid grid-cols-3 gap-5">
+            <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 <div className="group relative bg-black rounded-xl text-white p-8 pb-30 overflow-hidden">
                     <div className="pointer-events-none absolute -top-25 -right-10 w-50 h-50 
                             bg-[radial-gradient(circle,rgba(147,197,253,0.5),transparent_70%)] 

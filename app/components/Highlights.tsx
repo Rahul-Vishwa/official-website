@@ -2,12 +2,12 @@ export function Highlights() {
     return (
         <section className="padding-x mb-24">
             <div>
-                <div className="montserrat-normal leading-12 text-[40px] text-wrap">
+                <div className="montserrat-normal leading-tight md:leading-12 text-2xl md:text-[40px] text-wrap">
                     Smarter AI experiences<br />
                     <span className="text-gray-500">crafted for <span className="bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">automation</span></span>
                 </div>
-                <div className="mt-10 grid grid-cols-6 gap-5">
-                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-2 rounded-xl bg-gray-card  p-8">
+                <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-5">
+                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-1 lg:col-span-2 rounded-xl bg-gray-card  p-6 md:p-8">
                         <div className="px-10 h-[190px] overflow-hidden image-gradient">
                             <img src="/workflow.png" className="rounded-sm shadow-sm"></img>
                         </div>
@@ -17,7 +17,7 @@ export function Highlights() {
                         </div>
                     </div>
 
-                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-2 rounded-xl bg-gray-card  p-8">
+                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-1 lg:col-span-2 rounded-xl bg-gray-card  p-6 md:p-8">
                         <div className="px-10 h-[190px] overflow-hidden image-gradient">
                             <img src="/searchbot.png" className=""></img>
                         </div>
@@ -28,7 +28,7 @@ export function Highlights() {
                     </div>
 
 
-                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-2 rounded-xl bg-gray-card  p-8">
+                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-1 lg:col-span-2 rounded-xl bg-gray-card  p-6 md:p-8">
                         <div className="px-6 h-[190px] overflow-hidden image-gradient">
                             <img src="/chatbot-white.png" className=""></img>
                         </div>
@@ -39,7 +39,7 @@ export function Highlights() {
                     </div>
 
 
-                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-2 rounded-xl bg-gray-card  p-8">
+                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-1 lg:col-span-2 rounded-xl bg-gray-card  p-6 md:p-8">
                         <div className="px-6 h-[190px] overflow-hidden image-gradient">
                             <img src="/recommendation.png" className=""></img>
                         </div>
@@ -50,7 +50,7 @@ export function Highlights() {
                     </div>
 
 
-                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-2 rounded-xl bg-gray-card  p-8">
+                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-1 lg:col-span-2 rounded-xl bg-gray-card  p-6 md:p-8">
                         <div className="px-10 h-[190px] overflow-hidden image-gradient">
                             <img src="/performance.png" className="rounded-md"></img>
                         </div>
@@ -61,7 +61,7 @@ export function Highlights() {
                     </div>
 
 
-                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-2 rounded-xl bg-gray-card  p-8">
+                    <div className="transition-shadow border border-transparent duration-500 ease-out hover:shadow-md hover:border hover:border-gray-300 col-span-1 lg:col-span-2 rounded-xl bg-gray-card  p-6 md:p-8">
                         <div className="px-10 h-[190px] overflow-hidden image-gradient">
                             <img src="/documentupload.png" className="rounded-md"></img>
                         </div>

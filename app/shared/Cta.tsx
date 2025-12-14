@@ -10,9 +10,9 @@ export default function Cta() {
                 <img src="/blob.png" className="blob blob-voilet-highlight"></img>
                 <img src="/blob.png" className="blob blob-yellow-highlight"></img>
                 {/* <NeuralCanvas /> */}
-                <div className="flex justify-between gap-5 text-white bg-black px-8 py-10 pb-30">
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-5 text-white bg-black px-6 md:px-8 py-8 md:py-10 pb-20 md:pb-30">
                     <div className="z-10">
-                        <div className="text-[40px] montserrat-normal bg-linear-to-r to-blue-500 from-purple-500 bg-clip-text text-transparent">
+                        <div className="text-2xl md:text-[40px] montserrat-normal bg-linear-to-r to-blue-500 from-purple-500 bg-clip-text text-transparent leading-tight md:leading-normal">
                             Ready to build something extraordinary?
                         </div>
                         <div className="text-lg mt-2">

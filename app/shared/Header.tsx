@@ -43,46 +43,129 @@ export default function Header() {
     const { theme } = useTheme();
     const [mounted, setMounted] = useState(false);
     const [servicesOpen, setServicesOpen] = useState(false);
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     useEffect(() => setMounted(true), []);
     if (!mounted) return null;
 
     return (
         <section>
+            {/* Desktop Services Backdrop */}
             {servicesOpen && (
-                <div className="fixed inset-0 bg-black/40 z-40" />
+                <div className="hidden lg:block fixed inset-0 bg-black/40 z-40" onClick={() => setServicesOpen(false)} />
             )}
 
             <div onMouseLeave={() => setServicesOpen(false)}>
                 <header
-                    className="glass-effect fixed top-6 left-1/2 -translate-x-1/2 w-[90%] max-w-6xl backdrop-blur-sm bg-white/10 h-14 rounded-full flex items-center z-50"
+                    className="glass-effect fixed top-3 md:top-6 left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] max-w-6xl backdrop-blur-sm bg-white/10 h-12 md:h-14 rounded-full flex items-center z-50"
                 >
-                    <div className="flex items-center w-full pl-6 pr-2">
-                        <h1 className="flex-1 font-bold text-[18px] flex gap-3 items-center">
-                            <div className="w-4 h-4 overflow-hidden relative">
+                    <div className="flex items-center w-full pl-4 md:pl-6 pr-2">
+                        <h1 className="flex-1 font-bold text-base md:text-[18px] flex gap-2 md:gap-3 items-center">
+                            <div className="w-3.5 h-3.5 md:w-4 md:h-4 overflow-hidden relative">
                                 <img src="/logo.png" className="absolute inset-0 object-cover object-center" />
                             </div>
                             Viora
                         </h1>
 
-                        <nav className="flex-1">
+                        {/* Desktop Navigation */}
+                        <nav className="flex-1 hidden lg:block">
                             <ul className="flex gap-10 items-center justify-center">
                                 <li className="cursor-pointer">About</li>
-                                <li className="cursor-pointer" onMouseEnter={() => setServicesOpen(true)}>Services</li>
+                                <li 
+                                    className="cursor-pointer" 
+                                    onMouseEnter={() => setServicesOpen(true)}
+                                    onClick={() => setServicesOpen(!servicesOpen)}
+                                >
+                                    Services
+                                </li>
                                 <li className="cursor-pointer"><a href="#process">Process</a></li>
                                 <li className="cursor-pointer"><a href="#tech">Tech</a></li>
                                 <li className="cursor-pointer">Blogs</li>
                             </ul>
                         </nav>
 
-                        <div className="flex-1 flex justify-end">
-                            <button className={`${cssClass.primaryButton} py-2!`}>Contact</button>
+                        {/* Mobile: Hamburger + Contact Button */}
+                        <div className="flex-1 lg:hidden flex items-center justify-end gap-2">
+                            <button className={`${cssClass.primaryButton} py-1.5 px-4 text-sm`}>Contact</button>
+                            <button 
+                                className="p-2"
+                                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                            >
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    {mobileMenuOpen ? (
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                    ) : (
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                                    )}
+                                </svg>
+                            </button>
+                        </div>
+
+                        {/* Desktop: Contact Button */}
+                        <div className="flex-1 hidden lg:flex justify-end">
+                            <button className={`${cssClass.primaryButton} py-1.5 md:py-2 px-4 md:px-5 text-sm md:text-base`}>Contact</button>
                         </div>
                     </div>
                 </header>
 
+                {/* Mobile Menu */}
+                <div className={`lg:hidden fixed top-0 right-0 h-full w-[280px] bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-in-out ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+                    <div className="p-6">
+                        <div className="flex justify-between items-center mb-8">
+                            <h2 className="font-bold text-xl text-black">Menu</h2>
+                            <button onClick={() => setMobileMenuOpen(false)} className="text-black">
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+                        <nav>
+                            <ul className="flex flex-col gap-1">
+                                <li className="cursor-pointer py-3 border-b border-gray-200 text-black">About</li>
+                                <li>
+                                    <div 
+                                        className="cursor-pointer py-3 border-b border-gray-200 flex justify-between items-center text-black"
+                                        onClick={() => setServicesOpen(!servicesOpen)}
+                                    >
+                                        <span>Services</span>
+                                        <svg className={`w-4 h-4 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </div>
+                                    {servicesOpen && (
+                                        <ul className="mt-2 mb-3 flex flex-col gap-1 bg-gray-50 rounded-lg p-2">
+                                            {services.map(service => (
+                                                <li key={service.title} className="py-2 px-2 text-sm text-black hover:bg-white rounded transition-colors cursor-pointer">
+                                                    <div className="flex items-start gap-3">
+                                                        <div className="w-8 h-8 flex-shrink-0 mt-0.5" style={{ transform: 'scale(0.8)' }}>
+                                                            {service.icon}
+                                                        </div>
+                                                        <span className="leading-relaxed">{service.title}</span>
+                                                    </div>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    )}
+                                </li>
+                                <li className="cursor-pointer py-3 border-b border-gray-200 text-black"><a href="#process">Process</a></li>
+                                <li className="cursor-pointer py-3 border-b border-gray-200 text-black"><a href="#tech">Tech</a></li>
+                                <li className="cursor-pointer py-3 border-b border-gray-200 text-black">Blogs</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                {/* Mobile Menu Backdrop */}
+                {mobileMenuOpen && (
+                    <div 
+                        className="lg:hidden fixed inset-0 bg-black/40 z-40"
+                        onClick={() => setMobileMenuOpen(false)}
+                    />
+                )}
+
+                {/* Desktop Services Dropdown */}
                 <div
-                    className={`fixed top-20 left-1/2 -translate-x-1/2 w-[90%] max-w-5xl z-50 transition-all duration-300 ease-out ${servicesOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
+                    className={`hidden lg:block fixed top-16 md:top-20 left-1/2 -translate-x-1/2 w-[90%] max-w-5xl z-50 transition-all duration-300 ease-out ${servicesOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
                         }`}
                 >
                     <div className="bg-white rounded-xl p-14 flex gap-10 items-stretch">

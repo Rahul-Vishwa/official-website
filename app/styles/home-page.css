@@ -7,38 +7,46 @@
   position: absolute;
 }
 
-.blob-blue-fixed {
-  top: -500px;
+/* .blob-blue-fixed {
+  top: -300px;
   left: -200px;
   opacity: 0.1;
-}
+} */
 
 .blob-blue {
-  top: -500px;
+  top: -300px;
   left: -200px;
   animation: blobMoveRight 3s ease-in-out infinite alternate;
 }
 
 .blob-purple {
   filter: blur(70px) brightness(1.1) contrast(100%) hue-rotate(21deg);
-  top: -500px;
-  left: 250px;
+  top: -300px;
+  left: 200px;
   animation: blobMoveRight 2s ease-in-out infinite alternate;
 }
 
 .blob-voilet {
   filter: blur(70px) brightness(1.1) contrast(100%) hue-rotate(250deg);
-  top: -500px;
-  left: 500px;
+  top: -300px;
+  right: 500px;
   animation: blobMoveLeft 4s ease-in-out infinite alternate;
 }
 
 .blob-yellow {
   filter: blur(70px) brightness(1.1) contrast(100%) hue-rotate(108deg);
-  top: -500px;
-  right: -200px;
+  top: -300px;
+  right: 80px;
   opacity: 0.3;
   animation: blobMoveLeft 3s ease-in-out infinite alternate;
+}
+
+.blob-orange {
+  filter: blur(70px) brightness(1.1) contrast(100%) hue-rotate(20deg);
+  top: -300px;
+  right: -500px;
+  opacity: 0.3;
+  animation: blobMoveRight 4s ease-in-out infinite alternate;
 }
 
 .blob-blue-highlight {

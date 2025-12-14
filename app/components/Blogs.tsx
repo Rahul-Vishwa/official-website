@@ -4,14 +4,14 @@ import { cssClass } from "../css-classes";
 export function Blogs() {
     return (
         <section className="padding-x mb-24">
-            <div className="montserrat-normal leading-12 text-[40px] text-wrap">
+            <div className="montserrat-normal leading-tight md:leading-12 text-2xl md:text-[40px] text-wrap">
                 Insights & engineering<br />
                 <span className="text-gray-500">built from <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">real work</span></span>
             </div>
 
-            <div className="grid grid-cols-2 gap-5 mt-10">
-                <div className="bg-gray-card border border-gray-200 rounded-xl flex gap-4 p-4 group">
-                    <div className="relative rounded-md overflow-hidden h-full flex-1">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
+                <div className="bg-gray-card border border-gray-200 rounded-xl flex flex-col xl:flex-row gap-4 p-4 group">
+                    <div className="relative rounded-md overflow-hidden h-48 xl:h-full xl:min-h-48 flex-1">
                         <div className="absolute w-full h-full z-20 bg-black/50 transition-all duration-500 group-hover:bg-black/10"></div>
                         <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*l21qi3nJNs3Tleoc24SR6Q.jpeg" className="absolute object-cover w-full h-full" />
                     </div>
@@ -33,8 +33,8 @@ export function Blogs() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-gray-card border border-gray-200 rounded-xl flex gap-4 p-4 group">
-                    <div className="relative rounded-md overflow-hidden h-full flex-1">
+                <div className="bg-gray-card border border-gray-200 rounded-xl flex flex-col xl:flex-row gap-4 p-4 group">
+                    <div className="relative rounded-md overflow-hidden h-48 xl:h-full xl:min-h-48 flex-1">
                         <div className="absolute w-full h-full z-20 bg-black/50 transition-all duration-500 group-hover:bg-black/10"></div>
                         <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*pskF5dv7GpP31jJGXQeTEQ.jpeg" className="absolute object-cover w-full h-full" />
                     </div>
@@ -56,8 +56,8 @@ export function Blogs() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-gray-card border border-gray-200 rounded-xl flex gap-4 p-4 group">
-                    <div className="relative rounded-md overflow-hidden h-full flex-1">
+                <div className="bg-gray-card border border-gray-200 rounded-xl flex flex-col xl:flex-row gap-4 p-4 group">
+                    <div className="relative rounded-md overflow-hidden h-48 xl:h-full xl:min-h-48 flex-1">
                         <div className="absolute w-full h-full z-20 bg-black/50 transition-all duration-500 group-hover:bg-black/10"></div>
                         <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*BV0eVn9HVKA-AKk0uYwxWQ.jpeg" className="absolute object-cover w-full h-full" />
                     </div>
@@ -79,8 +79,8 @@ export function Blogs() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-gray-card border border-gray-200 rounded-xl flex gap-4 p-4 group">
-                    <div className="relative rounded-md overflow-hidden h-full flex-1">
+                <div className="bg-gray-card border border-gray-200 rounded-xl flex flex-col xl:flex-row gap-4 p-4 group">
+                    <div className="relative rounded-md overflow-hidden h-48 xl:h-full xl:min-h-48 flex-1">
                         <div className="absolute w-full h-full z-20 bg-black/50 transition-all duration-500 group-hover:bg-black/10"></div>
                         <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*U5cGt5haeIKECZBZUXcOqw.png" className="absolute object-cover w-full h-full" />
                     </div>
