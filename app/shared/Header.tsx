@@ -136,7 +136,7 @@ export default function Header() {
                                         <ul className="mt-2 mb-3 flex flex-col gap-1 bg-gray-50 rounded-lg p-2">
                                             {services.map(service => (
                                                 <li key={service.title} className="py-2 px-2 text-sm text-black hover:bg-white rounded transition-colors cursor-pointer">
-                                                    <div className="flex items-start gap-3">
+                                                    <div className="flex items-center gap-3">
                                                         <div className="w-8 h-8 flex-shrink-0 mt-0.5" style={{ transform: 'scale(0.8)' }}>
                                                             {service.icon}
                                                         </div>

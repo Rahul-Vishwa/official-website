@@ -3,7 +3,7 @@ import NeuralCanvas from "./NeuralLink";
 
 export default function Cta() {
     return (
-        <section className="padding-x mb-20">
+        <section className="padding-x mb-10 md:mb-24">
             <div className="relative overflow-hidden rounded-xl">
                 <img src="/blob.png" className="blob blob-blue-highlight"></img>
                 <img src="/blob.png" className="blob blob-purple-highlight"></img>

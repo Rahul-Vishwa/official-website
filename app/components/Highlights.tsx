@@ -1,6 +1,6 @@
 export function Highlights() {
     return (
-        <section className="padding-x mb-24">
+        <section className="padding-x mb-10 md:mb-24">
             <div>
                 <div className="montserrat-normal leading-tight md:leading-12 text-2xl md:text-[40px] text-wrap">
                     Smarter AI experiences<br />

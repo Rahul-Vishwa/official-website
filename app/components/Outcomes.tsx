@@ -1,6 +1,6 @@
 export default function Outcomes() {
     return (
-        <section className="padding-x mb-20">
+        <section className="padding-x mb-10 md:mb-24">
             {/* <div className="flex justify-center w-full">
                 <div className="text-lg font-semibold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                     Wander on the land of the AI World with us and see what excites you.

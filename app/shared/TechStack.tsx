@@ -76,8 +76,8 @@ export function TechStack() {
   const activeTab = TABS.find((t) => t.id === active) || TABS[0]
 
   return (
-    <section id="tech" className="mb-24 padding-x">
-        <div className="montserrat-normal leading-12 text-[40px] text-wrap">
+    <section id="tech" className="mb-10 md:mb-24 padding-x">
+        <div className="montserrat-normal leading-tight md:leading-12 text-2xl md:text-[40px] text-wrap">
             Our technology ecosystem <br />
             <span className="text-gray-500">crafted for <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">performance</span></span>
         </div>

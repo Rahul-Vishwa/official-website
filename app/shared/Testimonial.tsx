@@ -1,6 +1,6 @@
 export function Testimonial() {
     return (
-        <section className="padding-x pb-24">
+        <section className="padding-x mb-10 md:mb-24">
             
             <div className="w-full md:w-[80%] lg:w-[50%] montserrat-normal leading-tight md:leading-12 text-2xl md:text-[40px] text-wrap">
                 What people say<br /> 

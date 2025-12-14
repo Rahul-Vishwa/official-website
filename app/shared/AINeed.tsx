@@ -2,7 +2,7 @@ import { BadgeDollarSign, Brain, BrainCircuit, CircleCheck, Clock, Cpu, DollarSi
 
 export default function AINeed() {
     return (
-        <section className="padding-x mb-24">
+        <section className="padding-x mb-10 md:mb-24">
             <div className="montserrat-normal leading-tight md:leading-12 text-2xl md:text-[40px] text-wrap">
                 Why you need AI?<br /> <span className="text-gray-500">Unmatched <span className="bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">business growth</span></span>
             </div>

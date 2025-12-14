@@ -3,7 +3,7 @@ import { cssClass } from "../css-classes";
 
 export function Blogs() {
     return (
-        <section className="padding-x mb-24">
+        <section className="padding-x mb-10 md:mb-24">
             <div className="montserrat-normal leading-tight md:leading-12 text-2xl md:text-[40px] text-wrap">
                 Insights & engineering<br />
                 <span className="text-gray-500">built from <span className="bg-linear-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">real work</span></span>
