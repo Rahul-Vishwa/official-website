@@ -8,6 +8,8 @@ export default function useTheme(defaultTheme: ThemeName = "light") {
 
   // initialize theme on mount
   useEffect(() => {
+    // Theme logic disabled
+    /*
     try {
       const stored =
         typeof window !== "undefined" ? localStorage.getItem("theme") : null;
@@ -37,10 +39,13 @@ export default function useTheme(defaultTheme: ThemeName = "light") {
         document.documentElement.setAttribute("data-theme", defaultTheme);
       } catch {}
     }
+    */
   }, [defaultTheme]);
 
   // Setter that updates DOM + localStorage + state
   const setTheme = useCallback((name: ThemeName) => {
+    // Theme logic disabled
+    /*
     try {
       document.documentElement.setAttribute("data-theme", name);
       localStorage.setItem("theme", name);
@@ -49,10 +54,13 @@ export default function useTheme(defaultTheme: ThemeName = "light") {
       console.warn("setTheme failed", e);
       setThemeState(name);
     }
+    */
   }, []);
 
   // Toggle between 'dark' and 'light' safely using functional update
   const toggle = useCallback(() => {
+    // Theme logic disabled
+    /*
     setThemeState((prev) => {
       const current = (prev ?? defaultTheme) as ThemeName;
       const next: ThemeName = current === "dark" ? "light" : "dark";
@@ -64,6 +72,7 @@ export default function useTheme(defaultTheme: ThemeName = "light") {
       }
       return next;
     });
+    */
   }, [defaultTheme]);
 
   return { theme, setTheme, toggle } as {
