@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <div className="padding-x relative overflow-x-hidden">
-        <section className="w-full mt-20 md:mt-32 lg:mt-40 overflow-x-hidden">
+        <section className="w-full mt-32 md:mt-32 lg:mt-40 overflow-x-hidden">
           <img src="/blob.png" className="blob blob-blue"></img>
           <img src="/blob.png" className="blob blob-purple"></img>
           <img src="/blob.png" className="blob blob-voilet"></img>
